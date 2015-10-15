@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+body,html {
+  margin : 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+label, button, textarea, input {
+	display: block;
+}
+
+h1,h2,h3,h4,h5,h5{
+  margin: 0px;
+}
+
+button {
+	margin: 0px;
+}
+
+ul, ol {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+textarea,
+input[type='text'],
+input[type='email'],
+input[type='date'] {
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+textarea {
+	height: 350px;
+}
+
+dialog {
+	border: none;
+	box-shadow: 0px 0px 3px 3px #ccc;
+}
+
+.h-group{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.error {
+	display: none;
+	color: #cc0000;
+	background: #ffebeb;
+	border: 1px solid #cc0000;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.success {
+	display: none;
+	color: #00cc00;
+	background: #e2ffd9;
+	border: 1px solid #00cc00;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.info {
+	display: none;
+	color: #0000cc;
+	background: #d9dbff;
+	border: 1px solid #0000cc;
+	padding: 5px;
+	margin-bottom: 10px;
+}
